@@ -1,0 +1,24 @@
+
+<div id="main">
+  <p> <strong>Film Title:</strong> <%= @film.title %> </p>
+  <p> <strong>Plot:</strong> <%= @film.plot %> </p>
+  <p> <strong>Year:</strong> <%= @film.year %></p>
+  <p> <strong>Rated:</strong> <%= @film.rated %></p>
+  <p> <strong>Released:</strong> <%= @film.released %></p>
+  <p> <strong>Director:</strong> <%= @film.director %></p>
+  <p> <strong>Runtime:</strong> <%= @film.runtime %></p>
+  <p> <strong>Lead Actors/Actresses:</strong> <%= @film.actors %></p>
+</div>
+<div id="panel">
+  <img src='<%= @img_url %>'>
+</div>
+<%= params %>
+
+
+<!--   - form to enter movie name
+- when submitted, use movies gem to find information
+- show title, rating, director, some other info.
+- use images gem to get a random image for the movie and show it also.
+- Make sure if no movie found site works alright. -->
+
+<!-- #"1984", "Year"=>"1984", "Rated"=>"R", "Released"=>"14 Dec 1984", "Runtime"=>"1 h 53 min", "Genre"=>"Drama, Romance, Sci-Fi, Thriller", "Director"=>"Michael Radford", "Writer"=>"George Orwell, Michael Radford", "Actors"=>"John Hurt, Richard Burton, Suzanna Hamilton, Cyril Cusack", "Plot"=>"George Orwell's novel of a totalitarian future society in which a man whose daily work is rewriting history tries to rebel by falling in love.", "Poster"=>"http://ia.media-imdb.com/images/M/MV5BMTgxNzc1MzMwNV5BMl5BanBnXkFtZTcwMDk3MjUyNA@@._V1_SX300.jpg", "imdbRating"=>"7.1", "imdbVotes"=>"31,590", "imdbID"=>"tt0087803", "Type"=>"movie", "Response"=>"True"}, @title="1984", @year=1984, @rated="R", @released="14 Dec 1984", @runtime=113, @genre="Drama, Romance, Sci-Fi, Thriller", @director="Michael Radford", @writer="George Orwell, Michael Radford", @actors=["John Hurt", "Richard Burton", "Suzanna Hamilton", "Cyril Cusack"], @plot="George Orwell's novel of a totalitarian future society in which a man whose daily work is rewriting history tries to rebel by falling in love.", @poster="http://ia.media-imdb.com/images/M/MV5BMTgxNzc1MzMwNV5BMl5BanBnXkFtZTcwMDk3MjUyNA@@._V1_SX300.jpg", @imdbrating="7.1", @imdbvotes="31,590", @imdbid="tt0087803", @type="movie", @response="True", @genres=["Drama", "Romance", "Sci-Fi", "Thriller"], @writers=["George Orwell", "Michael Radford"], @rating=0.0, @votes=0> -->

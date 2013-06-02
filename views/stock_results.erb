@@ -1,0 +1,13 @@
+<div id="main">
+  <p> <strong>Symbol:</strong> <%= @stock.symbol %> </p>
+  <p> <strong>Company:</strong> <%= @stock.company %> </p>
+  <p> <strong>Exchange:</strong> <%= @stock.exchange %> </p>
+  <p> <strong>Average Volume:</strong> <%= @stock.avg_volume %> </p>
+  <p> <strong>Yesterday's Close:</strong> <%= @stock.y_close %> </p>
+  <p> <strong>High:</strong> <%= @stock.high %> </p>
+  <p> <strong>Low:</strong> <%= @stock.low %> </p>
+</div>
+<div id="panel">
+  <img src="http://google.com/<%= @stock.chart_url %>">
+</div>
+<%= params %>
